@@ -51,14 +51,29 @@ button:hover {
     color: white;
     font-size: 20px;
 }
+.container_2{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
 
 #Res {
-    display: inline-block;
+    display:block;
     font-size: 1.9rem;
     font-weight: bold;
     /* padding: 10px;  */
-    background-color: rgb(230, 221, 221);
+    /* background-color: rgb(230, 221, 221); */
 }
+
+#Res_2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    /* padding: 10px;  */
+    /* background-color: rgb(230, 221, 221); */
+}
+
 
 #hid {
     display:none;
@@ -112,8 +127,18 @@ button:hover {
     #Res {
         margin-top: 8%;
         padding: 0 15%;
-        display: inline-block;
+        display: block;
         font-size: 1.5rem;
+        font-weight: bold;
+       
+        background-color: rgb(230, 221, 221);
+    }
+
+    #Res {
+        margin-top: 8%;
+        padding: 0 15%;
+        display: block;
+        font-size: 1rem;
         font-weight: bold;
        
         background-color: rgb(230, 221, 221);
