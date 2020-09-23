@@ -60,10 +60,69 @@ button:hover {
     background-color: rgb(230, 221, 221);
 }
 
-#win {
-    display: inline-block;
-    font-size: 1.9rem;
-    font-weight: bold;
-    padding: 10px;   
-    color: red;
+#hid {
+    display:none;
+}
+
+
+
+@media (max-width: 500px){
+       
+    body {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;   
+        background-image: url(img/mobile.png);
+        background-size: cover; 
+        text-align: center;
+    }
+
+    .container{       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    h1 {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: whitesmoke;
+        padding: 0 12%;
+        margin-top: 30%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .inp{    
+        margin-bottom: 10%;   
+        margin-top: 10%;   
+        font-size: 18px;
+        font-weight: bold;
+        text-indent: 50%;
+    }
+    
+    
+    button {    
+        margin:0 auto ;
+        /* display: flex; */
+        width: 30%;
+        /* justify-content: center; */
+    }
+    
+    #Res {
+        margin-top: 8%;
+        padding: 0 15%;
+        display: inline-block;
+        font-size: 1.5rem;
+        font-weight: bold;
+       
+        background-color: rgb(230, 221, 221);
+    }
+    #hid {
+        background-color: rgba(0, 0, 0, 0.5);    
+        color:rgb(231, 231, 22);
+        display:inline-block;
+        font-size: 2.5rem;
+        text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    }
 }
